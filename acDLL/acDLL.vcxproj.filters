@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SetupHooksAndNops">
+      <UniqueIdentifier>{41bffed9-952a-44e9-bdc9-b233a5913a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainHackLoop">
+      <UniqueIdentifier>{c5d7f804-dc05-429c-bffc-07fb17219c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{85bca54e-7c5d-4e13-bd41-f117949bc3d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="infAmmo">
+      <UniqueIdentifier>{a9cabad4-f3c4-4b01-b17c-03a243ca9119}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupHooksAndNops.h">
+      <Filter>SetupHooksAndNops</Filter>
+    </ClInclude>
+    <ClInclude Include="MainHackLoop.h">
+      <Filter>MainHackLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="infAmmo.h">
+      <Filter>infAmmo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupHooksAndNops.cpp">
+      <Filter>SetupHooksAndNops</Filter>
+    </ClCompile>
+    <ClCompile Include="MainHackLoop.cpp">
+      <Filter>MainHackLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
+    <ClCompile Include="infAmmo.cpp">
+      <Filter>infAmmo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
