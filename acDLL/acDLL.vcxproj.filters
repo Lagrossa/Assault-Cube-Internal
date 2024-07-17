@@ -25,6 +25,9 @@
     <Filter Include="infAmmo">
       <UniqueIdentifier>{a9cabad4-f3c4-4b01-b17c-03a243ca9119}</UniqueIdentifier>
     </Filter>
+    <Filter Include="OneShot">
+      <UniqueIdentifier>{4128c3dc-32db-4d04-afd8-683ec2965df8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -48,6 +51,9 @@
     <ClInclude Include="infAmmo.h">
       <Filter>infAmmo</Filter>
     </ClInclude>
+    <ClInclude Include="oneShot.h">
+      <Filter>OneShot</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -67,6 +73,9 @@
     </ClCompile>
     <ClCompile Include="infAmmo.cpp">
       <Filter>infAmmo</Filter>
+    </ClCompile>
+    <ClCompile Include="oneShot.cpp">
+      <Filter>OneShot</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

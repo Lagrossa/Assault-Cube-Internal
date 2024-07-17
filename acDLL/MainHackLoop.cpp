@@ -30,4 +30,9 @@ void MainHackLoop() {
 		infAmmoNop.ToggleNop();
 		std::cout << "Infinite Ammo NOP: " << (infAmmoNop.bActive) << std::endl;
 	}
+
+	if (GetAsyncKeyState(VK_NUMPAD1) & 1) {		
+		oneShotDetour.ToggleDetour();
+		std::cout << "One Shot Red Team: " << (oneShotDetour.bActive) << std::endl;
+	}
 }
