@@ -32,4 +32,5 @@ void SetupHooksAndNops() {
 	//One Shot Detour
 	BYTE* oneShotDetourDst = (moduleBaseAssaultCube + 0x29D1F);
 	Hook oneShotDetourTemp(oneShotDetourDst, (BYTE*)OneShot, 5);
+	oneShotDetour = oneShotDetourTemp;
 }

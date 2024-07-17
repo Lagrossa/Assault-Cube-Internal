@@ -8,7 +8,8 @@ void __declspec(naked)OneShot() {
 		mov eax, edi //Run Stolen Bytes First
 		push ecx
 		mov ecx, ebx
-		cmp[ecx + 238], 1 // Blue Team?
+		add ecx, 0x238
+		cmp[ecx], 1 // Blue Team?
 		pop ecx
 		je myTeam
 		sub[ebx + 04], edi

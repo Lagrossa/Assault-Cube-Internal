@@ -25,6 +25,7 @@ DWORD WINAPI HackThread(HMODULE hModule) {
 
     std::cout << "Press NUMPAD0 for infAmmoDetour." << std::endl;
     std::cout << "Press NUMPAD1 for infAmmoNOP." << std::endl;
+    std::cout << "Press NUMPAD2 to One Shot Red Team" << std::endl;
     std::cout << "Press END to uninject." << std::endl;
 
     while (!bBreakHackThreadWhileLoop) {
@@ -33,6 +34,7 @@ DWORD WINAPI HackThread(HMODULE hModule) {
 
     if (infAmmoDetour.bActive) { infAmmoDetour.ToggleDetour(); }
     if (infAmmoNop.bActive) { infAmmoNop.ToggleNop(); }
+    if (oneShotDetour.bActive) { oneShotDetour.ToggleDetour(); }
 
     //release the console
     fclose(f);
