@@ -17,6 +17,7 @@ a8"     "8a  88      88   a8P_____88 88P'   Y8\n\
 void GetInput() {
 	if (GetAsyncKeyState(VK_END) & 1) {
         BreakHackLoop();
+        ToggleConsole();
 	}
 
 	if (GetAsyncKeyState(VK_NUMPAD0) & 1) {
@@ -36,20 +37,32 @@ void PrintConsole() {
     std::cout << "\n==================================================" << std::endl;
     std::cout << "Press NUMPAD0 for infAmmoNOP." << std::endl;
     std::cout << "Press NUMPAD1 to One Shot & Godmode" << std::endl;
+    std::cout << "Press NUMPAD2 to toggle the Console" << std::endl;
     std::cout << "Press END to uninject." << std::endl;
     std::cout << "==================================================" << std::endl;
-    std::cout << "Infinite Ammo: " << (infAmmoNop.bActive) << std::endl;
-    std::cout << "One Shot & Godmode: " << (oneShotDetour.bActive) << std::endl;
+    std::cout << "Infinite Ammo: " << ((infAmmoNop.bActive) ? "ON" : "OFF") << std::endl;
+    std::cout << "One Shot & Godmode: " << ((oneShotDetour.bActive) ? "ON" : "OFF") << std::endl;
 }
 
 void BreakHackLoop() {
     if (infAmmoNop.bActive) { infAmmoNop.ToggleNop(); }
     if (oneShotDetour.bActive) { oneShotDetour.ToggleDetour(); }
+    if (harvestDataTramp.bActive) { harvestDataTramp.ToggleTrampSBF(); }
 
 	mainHackLoopTramp.ToggleTrampSBF();
 	bBreakHackThreadWhileLoop = true;
 }
 
 void ToggleConsole() {
-
+    static bool consoleOn = false;
+    static FILE* f;
+    consoleOn = !consoleOn;
+    if (consoleOn) {
+        AllocConsole();        
+        freopen_s(&f, "CONOUT$", "w", stdout);
+    }
+    else {
+        fclose(f);
+        FreeConsole();
+    }
 }

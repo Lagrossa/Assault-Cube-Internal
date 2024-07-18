@@ -28,6 +28,15 @@
     <Filter Include="consoleAndInput">
       <UniqueIdentifier>{dc055a54-d6d1-4e2f-bd76-13bb5507f4bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Structs">
+      <UniqueIdentifier>{cf814110-709d-4940-bc1d-5141549d824f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="harvest">
+      <UniqueIdentifier>{9825bd9c-85f0-4c79-9519-69f30071f28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="globals">
+      <UniqueIdentifier>{df9625e5-42ec-44a9-8e0f-e9beb8923e8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -54,6 +63,15 @@
     <ClInclude Include="consoleAndInput.h">
       <Filter>consoleAndInput</Filter>
     </ClInclude>
+    <ClInclude Include="harvest.h">
+      <Filter>harvest</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>globals</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -76,6 +94,15 @@
     </ClCompile>
     <ClCompile Include="consoleAndInput.cpp">
       <Filter>consoleAndInput</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="harvest.cpp">
+      <Filter>harvest</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>globals</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

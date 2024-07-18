@@ -14,15 +14,15 @@ struct Offsets {
 DWORD WINAPI HackThread(HMODULE hModule) {
 
     //Create Console
-    AllocConsole();
-    FILE* f;
-    freopen_s(&f, "CONOUT$", "w", stdout);
+    ToggleConsole();
 
     //Setup our hooks and NOPs
+
     SetupHooksAndNops();
 
     //Toggle the hooks we want
     mainHackLoopTramp.ToggleTrampSBF();
+    harvestDataTramp.ToggleTrampSBF();
 
     PrintConsole();
 
@@ -31,8 +31,7 @@ DWORD WINAPI HackThread(HMODULE hModule) {
     }
 
     //release the console
-    fclose(f);
-    FreeConsole();
+    ToggleConsole();
 
     //Unload library, close thread safely
     FreeLibraryAndExitThread(hModule, 0);
