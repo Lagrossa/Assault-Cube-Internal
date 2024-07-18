@@ -30,7 +30,7 @@
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -141,23 +141,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="consoleAndInput.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="infAmmo.h" />
     <ClInclude Include="MainHackLoop.h" />
     <ClInclude Include="memory.h" />
     <ClInclude Include="Offsets.h" />
     <ClInclude Include="oneShot.h" />
-    <ClInclude Include="oneShotTramp.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="SetupHooksAndNops.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="consoleAndInput.cpp" />
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="infAmmo.cpp" />
     <ClCompile Include="MainHackLoop.cpp" />
     <ClCompile Include="memory.cpp" />
     <ClCompile Include="oneShot.cpp" />
-    <ClCompile Include="oneShotTramp.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

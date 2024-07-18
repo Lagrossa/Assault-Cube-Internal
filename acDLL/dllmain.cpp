@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include "SetupHooksAndNops.h"
 #include "MainHackLoop.h"
+#include "consoleAndInput.h"
 
 struct Offsets {
     char* healthOffset = (char*)0xF8;
@@ -21,22 +22,13 @@ DWORD WINAPI HackThread(HMODULE hModule) {
     SetupHooksAndNops();
 
     //Toggle the hooks we want
-    mainHackLoopTramp.ToggleTrampSBL();
+    mainHackLoopTramp.ToggleTrampSBF();
 
-    std::cout << "Press NUMPAD0 for infAmmoDetour." << std::endl;
-    std::cout << "Press NUMPAD1 for infAmmoNOP." << std::endl;
-    std::cout << "Press NUMPAD2 to One Shot Detour" << std::endl;
-    std::cout << "Press NUMPAD3 to One Shot Trampoline" << std::endl;
-    std::cout << "Press END to uninject." << std::endl;
+    PrintConsole();
 
     while (!bBreakHackThreadWhileLoop) {
 
     }
-
-    if (infAmmoDetour.bActive) { infAmmoDetour.ToggleDetour(); }
-    if (infAmmoNop.bActive) { infAmmoNop.ToggleNop(); }
-    if (oneShotDetour.bActive) { oneShotDetour.ToggleDetour(); }
-    if (oneShotTramp.bActive) { oneShotTramp.ToggleTrampNSB(); }
 
     //release the console
     fclose(f);

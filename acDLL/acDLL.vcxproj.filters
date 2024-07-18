@@ -22,14 +22,11 @@
     <Filter Include="memory">
       <UniqueIdentifier>{85bca54e-7c5d-4e13-bd41-f117949bc3d3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="infAmmo">
-      <UniqueIdentifier>{a9cabad4-f3c4-4b01-b17c-03a243ca9119}</UniqueIdentifier>
-    </Filter>
     <Filter Include="OneShotDetour">
       <UniqueIdentifier>{4128c3dc-32db-4d04-afd8-683ec2965df8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="OneShotTramp">
-      <UniqueIdentifier>{1d02a410-9129-463f-bae5-fd40321cf0c3}</UniqueIdentifier>
+    <Filter Include="consoleAndInput">
+      <UniqueIdentifier>{dc055a54-d6d1-4e2f-bd76-13bb5507f4bf}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -51,14 +48,11 @@
     <ClInclude Include="memory.h">
       <Filter>memory</Filter>
     </ClInclude>
-    <ClInclude Include="infAmmo.h">
-      <Filter>infAmmo</Filter>
-    </ClInclude>
     <ClInclude Include="oneShot.h">
       <Filter>OneShotDetour</Filter>
     </ClInclude>
-    <ClInclude Include="oneShotTramp.h">
-      <Filter>OneShotTramp</Filter>
+    <ClInclude Include="consoleAndInput.h">
+      <Filter>consoleAndInput</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -77,14 +71,11 @@
     <ClCompile Include="memory.cpp">
       <Filter>memory</Filter>
     </ClCompile>
-    <ClCompile Include="infAmmo.cpp">
-      <Filter>infAmmo</Filter>
-    </ClCompile>
     <ClCompile Include="oneShot.cpp">
       <Filter>OneShotDetour</Filter>
     </ClCompile>
-    <ClCompile Include="oneShotTramp.cpp">
-      <Filter>OneShotTramp</Filter>
+    <ClCompile Include="consoleAndInput.cpp">
+      <Filter>consoleAndInput</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
