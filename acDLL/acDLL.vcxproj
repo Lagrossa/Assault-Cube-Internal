@@ -83,6 +83,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -146,6 +147,7 @@
     <ClInclude Include="memory.h" />
     <ClInclude Include="Offsets.h" />
     <ClInclude Include="oneShot.h" />
+    <ClInclude Include="oneShotTramp.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="SetupHooksAndNops.h" />
   </ItemGroup>
@@ -155,6 +157,7 @@
     <ClCompile Include="MainHackLoop.cpp" />
     <ClCompile Include="memory.cpp" />
     <ClCompile Include="oneShot.cpp" />
+    <ClCompile Include="oneShotTramp.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -3,5 +3,6 @@ C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\infAmmo.cpp;C:\Users\Yanni\source\re
 C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\MainHackLoop.cpp;C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\Debug\MainHackLoop.obj
 C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\memory.cpp;C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\Debug\memory.obj
 C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\oneShot.cpp;C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\Debug\oneShot.obj
+C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\oneShotTramp.cpp;C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\Debug\oneShotTramp.obj
 C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\pch.cpp;C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\Debug\pch.obj
 C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\SetupHooksAndNops.cpp;C:\Users\Yanni\source\repos\GHS\acDLL\acDLL\Debug\SetupHooksAndNops.obj

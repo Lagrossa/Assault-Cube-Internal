@@ -25,8 +25,11 @@
     <Filter Include="infAmmo">
       <UniqueIdentifier>{a9cabad4-f3c4-4b01-b17c-03a243ca9119}</UniqueIdentifier>
     </Filter>
-    <Filter Include="OneShot">
+    <Filter Include="OneShotDetour">
       <UniqueIdentifier>{4128c3dc-32db-4d04-afd8-683ec2965df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OneShotTramp">
+      <UniqueIdentifier>{1d02a410-9129-463f-bae5-fd40321cf0c3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +55,10 @@
       <Filter>infAmmo</Filter>
     </ClInclude>
     <ClInclude Include="oneShot.h">
-      <Filter>OneShot</Filter>
+      <Filter>OneShotDetour</Filter>
+    </ClInclude>
+    <ClInclude Include="oneShotTramp.h">
+      <Filter>OneShotTramp</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -75,7 +81,10 @@
       <Filter>infAmmo</Filter>
     </ClCompile>
     <ClCompile Include="oneShot.cpp">
-      <Filter>OneShot</Filter>
+      <Filter>OneShotDetour</Filter>
+    </ClCompile>
+    <ClCompile Include="oneShotTramp.cpp">
+      <Filter>OneShotTramp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

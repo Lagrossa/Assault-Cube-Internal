@@ -22,6 +22,7 @@ struct Hook{
 
 	void ToggleTrampSBF();
 	void ToggleTrampSBL();
+	void ToggleTrampNSB(); // No Stolen Bytes are run! In the future I could just specify which from which point the bytes are run. TTSBF(3,5)
 	void ToggleDetour();
 
 	Hook(BYTE* hookPosition, BYTE* desiredFunction, int lengthOfHook);

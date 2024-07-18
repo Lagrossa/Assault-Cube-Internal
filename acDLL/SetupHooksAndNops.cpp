@@ -4,10 +4,12 @@
 #include "memory.h"
 #include "infAmmo.h"
 #include "oneShot.h"
+#include "oneShotTramp.h"
 
 Hook mainHackLoopTramp;
 Hook infAmmoDetour;
 Nop infAmmoNop;
+Hook oneShotTramp;
 Hook oneShotDetour;
 
 void SetupHooksAndNops() {
@@ -28,6 +30,11 @@ void SetupHooksAndNops() {
 	BYTE* infAmmoNopDst = (moduleBaseAssaultCube + 0x637E9);
 	Nop infAmmoNopTemp(infAmmoNopDst, 2);
 	infAmmoNop = infAmmoNopTemp;
+
+	//One Shot Tramp
+	BYTE* oneShotTrampDst = (moduleBaseAssaultCube + 0x29D1F);
+	Hook oneShotTrampTemp(oneShotTrampDst, (BYTE*)OneShotTramp, 5);
+	oneShotTramp = oneShotTrampTemp;
 
 	//One Shot Detour
 	BYTE* oneShotDetourDst = (moduleBaseAssaultCube + 0x29D1F);

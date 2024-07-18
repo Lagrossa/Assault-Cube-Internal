@@ -109,6 +109,45 @@ void Hook::ToggleTrampSBL() {
 	}
 }
 
+void Hook::ToggleTrampNSB() {
+	bActive = !bActive;
+
+	if (bActive) {
+		DWORD oldProtection;
+		VirtualProtect(hookPosition, lengthOfHook, PAGE_EXECUTE_READWRITE, &oldProtection);
+
+		if (bTrampBuilt) { goto  TrampAlreadyBuilt; }
+
+		trampToFuncCall = (DWORD)desiredFunction - (DWORD)(trampoline + sizeof(preserveStack)) - 5;
+
+		memcpy(trampoline, preserveStack, sizeof(preserveStack)); // Preserves Stack
+		memset(trampoline + sizeof(preserveStack), 0xE8, 1); // Call
+		*(DWORD*)(trampoline + sizeof(preserveStack) + 1) = trampToFuncCall; // Function Address
+
+		//Release stack
+		memcpy(trampoline + sizeof(preserveStack) + 5, releaseStack, sizeof(releaseStack)); //Releases Stack
+		memset(trampoline + sizeof(preserveStack) + 5 + sizeof(releaseStack), 0x90, lengthOfHook); // Nop out stolen bytes.. lol
+		memset(trampoline + sizeof(preserveStack) + 5 + sizeof(releaseStack) + lengthOfHook, 0xE9, 1); // Jump Back
+		*(DWORD*)(trampoline + lengthOfHook + sizeof(preserveStack) + 5 + sizeof(releaseStack) + 1) = returnJump;
+
+		bTrampBuilt = true;
+
+	TrampAlreadyBuilt:
+		memset(hookPosition, 0x90, lengthOfHook);
+		*(BYTE*)hookPosition = 0xE9;
+		*(DWORD*)(hookPosition + 1) = hookToTrampJump;
+
+		VirtualProtect(hookPosition, lengthOfHook, oldProtection, nullptr);
+	}
+
+	if (!bActive) {
+		DWORD oldProtection;
+		VirtualProtect(hookPosition, lengthOfHook, PAGE_EXECUTE_READWRITE, &oldProtection);
+		memcpy(hookPosition, stolenBytes, lengthOfHook);
+		VirtualProtect(hookPosition, lengthOfHook, oldProtection, nullptr);
+	}
+}
+
 void Hook::ToggleDetour() {
 	bActive = !bActive;
 	

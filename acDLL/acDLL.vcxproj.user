@@ -9,5 +9,6 @@
     <LocalDebuggerCommand>C:\Program Files %28x86%29\AssaultCube\bin_win32\ac_client.exe</LocalDebuggerCommand>
     <LocalDebuggerAttach>true</LocalDebuggerAttach>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerDebuggerType>Auto</LocalDebuggerDebuggerType>
   </PropertyGroup>
 </Project>

@@ -12,7 +12,7 @@ void __declspec(naked)OneShot() {
 		cmp[ecx], 1 // Blue Team?
 		pop ecx
 		je myTeam
-		sub[ebx + 04], 0x3E8 // One Shot!
+		sub[ebx + 04], 0x64 // One Shot!
 		jmp oneShotDetour.returnJumpDetour
 
 	myTeam:
