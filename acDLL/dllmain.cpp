@@ -6,11 +6,6 @@
 #include "MainHackLoop.h"
 #include "consoleAndInput.h"
 
-struct Offsets {
-    char* healthOffset = (char*)0xF8;
-    char* ammoOffset = (char*)0x150;
-};
-
 DWORD WINAPI HackThread(HMODULE hModule) {
 
     //Create Console

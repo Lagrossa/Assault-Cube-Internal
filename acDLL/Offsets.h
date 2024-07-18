@@ -1,6 +1,6 @@
 #pragma once
 
-struct Offsets {
+struct Offset {
     char* healthOffset;
     char* ammoOffset;
 };

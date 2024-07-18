@@ -23,9 +23,9 @@ struct Entity {
 };
 
 struct Offsets {
-	DWORD xCoord = 0x04;
-	DWORD yCoord = 0x08;
-	DWORD zCoord = 0x0C;
+	DWORD xCoord = 0x34;
+	DWORD yCoord = 0x38;
+	DWORD zCoord = 0x3C;
 	DWORD team = 0x32C;
 	DWORD playerNumber = 0x1E4;
 	DWORD bDead = 0x82;

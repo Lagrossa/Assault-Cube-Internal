@@ -147,7 +147,6 @@
     <ClInclude Include="harvest.h" />
     <ClInclude Include="MainHackLoop.h" />
     <ClInclude Include="memory.h" />
-    <ClInclude Include="Offsets.h" />
     <ClInclude Include="oneShot.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="SetupHooksAndNops.h" />

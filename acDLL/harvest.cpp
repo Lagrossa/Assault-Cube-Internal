@@ -38,7 +38,7 @@ void MoveDataIntoEnt(BYTE* playerBase, int* playerNumber) {
 	entity[*playerNumber].playerBase = playerBase;
 	entity[*playerNumber].bDead = playerBase + offsets.bDead;
 	entity[*playerNumber].playerNumber = (int*)(playerBase + offsets.playerNumber);
-	entity[*playerNumber].team = (int*)(playerBase + offsets.playerNumber);
+	entity[*playerNumber].team = (int*)(playerBase + offsets.team);
 	entity[*playerNumber].health = (int*)(playerBase + offsets.health);
 	entity[*playerNumber].xCoord = (float*)(playerBase + offsets.xCoord);
 	entity[*playerNumber].yCoord = (float*)(playerBase + offsets.yCoord);
