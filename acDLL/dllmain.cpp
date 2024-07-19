@@ -17,7 +17,7 @@ DWORD WINAPI HackThread(HMODULE hModule) {
 
     //Toggle the hooks we want
     mainHackLoopTramp.ToggleTrampSBF();
-    harvestDataTramp.ToggleTrampSBF();
+    //harvestDataTramp.ToggleTrampSBF();
 
     PrintConsole();
 

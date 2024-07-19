@@ -5,6 +5,7 @@
 #include "consoleAndInput.h"
 #include "globals.h"
 #include "structs.h"
+#include "harvest.h"
 
 #define numberOfPlayers (gModuleBaseAssaultCube + 0x10F500)
 
@@ -20,10 +21,18 @@ void MainHackLoop() {
 	
 	if (gNumberOfPlayers != currentNumbersOfPlayers) {
 		gNumberOfPlayers = currentNumbersOfPlayers;
-		if (!harvestDataTramp.bActive) { harvestDataTramp.ToggleTrampSBF(); }
+		//if (!harvestDataTramp.bActive) { harvestDataTramp.ToggleTrampSBF(); }
 	}
 
 	if (harvestDataTramp.bActive) { return; }
+
+	if (GetAsyncKeyState(VK_NUMPAD3)) {
+		uintptr_t* entList = (uintptr_t*)(gModuleBaseAssaultCube + 0x10F4F8);
+
+		for (int i = 1; i < gNumberOfPlayers; i++) {
+
+		}
+	}
 
 	if (*myself.arAmmo >= 200) { snakeUp = FALSE; }
 	if (*myself.arAmmo <= 1) { snakeUp = TRUE; }
