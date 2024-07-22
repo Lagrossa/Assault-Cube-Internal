@@ -2,6 +2,7 @@
 #include "consoleAndInput.h"
 #include <iostream>
 #include "SetupHooksAndNops.h"
+#include "aimbot.h"
 
 bool bBreakHackThreadWhileLoop = false;
 
@@ -29,6 +30,11 @@ void GetInput() {
 		oneShotDetour.ToggleDetour();
         PrintConsole();
 	}
+
+    if (GetAsyncKeyState(VK_NUMPAD3) & 1) {
+        bAimBotStatus = !bAimBotStatus;
+        PrintConsole();
+    }
 }
 
 void PrintConsole() {
@@ -42,12 +48,14 @@ void PrintConsole() {
     std::cout << "==================================================" << std::endl;
     std::cout << "Infinite Ammo: " << ((infAmmoNop.bActive) ? "ON" : "OFF") << std::endl;
     std::cout << "One Shot & Godmode: " << ((oneShotDetour.bActive) ? "ON" : "OFF") << std::endl;
+    std::cout << "Aimbot: " << ((bAimBotStatus) ? "ON" : "OFF") << std::endl;
 }
 
 void BreakHackLoop() {
     if (infAmmoNop.bActive) { infAmmoNop.ToggleNop(); }
     if (oneShotDetour.bActive) { oneShotDetour.ToggleDetour(); }
     if (harvestDataTramp.bActive) { harvestDataTramp.ToggleTrampSBF(); }
+    if (bAimBotStatus) { bAimBotStatus = FALSE; }
 
 	mainHackLoopTramp.ToggleTrampSBF();
 	bBreakHackThreadWhileLoop = true;

@@ -4,9 +4,9 @@
 struct Entity {
 	BYTE* playerBase = nullptr;
 	BYTE* bDead = nullptr;
-	float* xCoord = nullptr;
-	float* yCoord = nullptr;
-	float* zCoord = nullptr;
+	float* xHeadCoord = nullptr;
+	float* yHeadCoord = nullptr;
+	float* zHeadCoord = nullptr;
 	int* team = nullptr;
 	int* playerNumber = nullptr;
 	int* health = nullptr;
@@ -22,33 +22,6 @@ struct Entity {
 	float* pitch = nullptr;
 	int* arAmmo = nullptr;
 };
-
-// Created with ReClass.NET 1.2 by KN4CK3R
-
-class N00000052
-{
-public:
-	char pad_0000[4]; //0x0000
-	class EntList* pEntList; //0x0004
-	char pad_0008[64]; //0x0008
-}; //Size: 0x0048
-static_assert(sizeof(N00000052) == 0x48);
-
-class EntList
-{
-public:
-	char pad_0000[68]; //0x0000
-}; //Size: 0x0044
-static_assert(sizeof(EntList) == 0x44);
-
-class EntList
-{
-public:
-	char pad_0000[4]; //0x0000
-	class Ent* pEnt; //0x0004
-	char pad_0008[60]; //0x0008
-}; //Size: 0x0044
-static_assert(sizeof(EntList) == 0x44);
 
 class Ent
 {
@@ -78,9 +51,9 @@ public:
 }; //Size: 0x0330
 
 struct Offsets {
-	DWORD xCoord = 0x34;
-	DWORD yCoord = 0x38;
-	DWORD zCoord = 0x3C;
+	DWORD xHeadCoord = 0x34;
+	DWORD yHeadCoord = 0x38;
+	DWORD zHeadCoord = 0x3C;
 	DWORD team = 0x32C;
 	DWORD playerNumber = 0x1E4;
 	DWORD bDead = 0x82;
@@ -96,3 +69,4 @@ extern Entity entity[32];
 extern Entity myself;
 extern Offsets offsets;
 
+void UpdateEntInfo();

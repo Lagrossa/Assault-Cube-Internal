@@ -6,13 +6,14 @@
 #include "globals.h"
 #include "structs.h"
 #include "harvest.h"
+#include "aimbot.h"
 
 #define numberOfPlayers (gModuleBaseAssaultCube + 0x10F500)
 
 void MoveEnemiesToPlayer(Entity entity) {
-	*entity.xCoord = *myself.xCoord + 5;
-	*entity.yCoord = *myself.yCoord;
-	*entity.zCoord = *myself.zCoord;
+	*entity.xHeadCoord = *myself.xHeadCoord + 5;
+	*entity.yHeadCoord = *myself.yHeadCoord;
+	*entity.zHeadCoord = *myself.zHeadCoord;
 }
 
 void MainHackLoop() {
@@ -21,38 +22,14 @@ void MainHackLoop() {
 	
 	if (gNumberOfPlayers != currentNumbersOfPlayers) {
 		gNumberOfPlayers = currentNumbersOfPlayers;
-		//if (!harvestDataTramp.bActive) { harvestDataTramp.ToggleTrampSBF(); }
+		if (!harvestDataTramp.bActive) { harvestDataTramp.ToggleTrampSBF(); }
 	}
 
 	if (harvestDataTramp.bActive) { return; }
 
-	if (GetAsyncKeyState(VK_NUMPAD3)) {
-		uintptr_t* entList = (uintptr_t*)(gModuleBaseAssaultCube + 0x10F4F8);
+	UpdateEntInfo();
 
-		for (int i = 1; i < gNumberOfPlayers; i++) {
-
-		}
-	}
-
-	if (*myself.arAmmo >= 200) { snakeUp = FALSE; }
-	if (*myself.arAmmo <= 1) { snakeUp = TRUE; }
-
-	if (snakeUp) {
-		*myself.arAmmo += 1;
-	}
-	else {
-		*myself.arAmmo -= 1;
-	}
-
-	*myself.health = 9999;
-
-	for (int i = 0; i < gNumberOfPlayers; i++) {
-		if (*entity[i].team != *myself.team) {
-			*entity[i].health = 1;
-			MoveEnemiesToPlayer(entity[i]);
-		}
-	
-	}
+	Aimbot(ClosestEnemy());
 
 	GetInput();
 }
