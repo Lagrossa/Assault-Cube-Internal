@@ -1,2 +1,7 @@
-﻿  MainHackLoop.cpp
+﻿  aimbot.cpp
+  globals.cpp
+  harvest.cpp
+  MainHackLoop.cpp
+  structs.cpp
+  Generating Code...
   acDLL.vcxproj -> C:\Users\Yanni\source\repos\GHS\acDLL\Debug\acDLL.dll

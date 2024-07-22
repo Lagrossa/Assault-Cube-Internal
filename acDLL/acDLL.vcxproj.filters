@@ -37,6 +37,9 @@
     <Filter Include="globals">
       <UniqueIdentifier>{df9625e5-42ec-44a9-8e0f-e9beb8923e8b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="aimbot">
+      <UniqueIdentifier>{773a83c3-c67f-4e8a-9faf-8d0ef333aa1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -69,6 +72,9 @@
     <ClInclude Include="globals.h">
       <Filter>globals</Filter>
     </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>aimbot</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -100,6 +106,9 @@
     </ClCompile>
     <ClCompile Include="globals.cpp">
       <Filter>globals</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>aimbot</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
