@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\aimbot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\consoleAndInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\consoleAndInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\consoleAndInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\consoleAndInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\MainHackLoop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\MainHackLoop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\structs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\globals.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\MainHackLoop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\MainHackLoop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\globals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\globals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -35,28 +43,12 @@
       "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\memory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\aimbot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\consoleAndInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\consoleAndInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\SetupHooksAndNops.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\SetupHooksAndNops.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\harvest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\harvest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\consoleAndInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\consoleAndInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\SetupHooksAndNops.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -81,6 +73,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6B3287EA-F7D4-44BF-A8DF-0015DC780484}|acDLL\\acDLL.vcxproj|solutionrelative:acDLL\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:acDLL\\aimbot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:acDLL\\aimbot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,72 +98,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
               "Title": "aimbot.cpp",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.cpp",
               "RelativeDocumentMoniker": "acDLL\\aimbot.cpp",
-              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.cpp",
-              "RelativeToolTip": "acDLL\\aimbot.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABXAAAA",
+              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.cpp*",
+              "RelativeToolTip": "acDLL\\aimbot.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-22T04:35:08.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T04:35:08.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "aimbot.h",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.h",
               "RelativeDocumentMoniker": "acDLL\\aimbot.h",
-              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.h*",
-              "RelativeToolTip": "acDLL\\aimbot.h*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\aimbot.h",
+              "RelativeToolTip": "acDLL\\aimbot.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-22T04:34:51.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "memory.cpp",
-              "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\memory.cpp",
-              "RelativeDocumentMoniker": "acDLL\\memory.cpp",
-              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\memory.cpp",
-              "RelativeToolTip": "acDLL\\memory.cpp",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-19T21:26:37.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T04:34:51.49Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "harvest.cpp",
-              "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\harvest.cpp",
-              "RelativeDocumentMoniker": "acDLL\\harvest.cpp",
-              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\harvest.cpp",
-              "RelativeToolTip": "acDLL\\harvest.cpp",
-              "ViewState": "AQIAABQAAAAAAAAAAAASwCoAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T16:23:24.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "globals.h",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\globals.h",
               "RelativeDocumentMoniker": "acDLL\\globals.h",
-              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\globals.h*",
-              "RelativeToolTip": "acDLL\\globals.h*",
+              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\globals.h",
+              "RelativeToolTip": "acDLL\\globals.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T16:26:12.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T16:26:12.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "structs.h",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\structs.h",
               "RelativeDocumentMoniker": "acDLL\\structs.h",
@@ -171,12 +142,11 @@
               "RelativeToolTip": "acDLL\\structs.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T15:50:46.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T15:50:46.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "dllmain.cpp",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\dllmain.cpp",
               "RelativeDocumentMoniker": "acDLL\\dllmain.cpp",
@@ -184,38 +154,23 @@
               "RelativeToolTip": "acDLL\\dllmain.cpp",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-17T03:18:15.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T03:18:15.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "globals.cpp",
-              "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\globals.cpp",
-              "RelativeDocumentMoniker": "acDLL\\globals.cpp",
-              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\globals.cpp*",
-              "RelativeToolTip": "acDLL\\globals.cpp*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T16:27:26.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MainHackLoop.cpp",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\MainHackLoop.cpp",
               "RelativeDocumentMoniker": "acDLL\\MainHackLoop.cpp",
               "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\MainHackLoop.cpp*",
               "RelativeToolTip": "acDLL\\MainHackLoop.cpp*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T04:17:34.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T04:17:34.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "structs.cpp",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\structs.cpp",
               "RelativeDocumentMoniker": "acDLL\\structs.cpp",
@@ -223,12 +178,24 @@
               "RelativeToolTip": "acDLL\\structs.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T15:50:49.761Z",
+              "WhenOpened": "2024-07-18T15:50:49.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "consoleAndInput.cpp",
+              "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\consoleAndInput.cpp",
+              "RelativeDocumentMoniker": "acDLL\\consoleAndInput.cpp",
+              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\consoleAndInput.cpp",
+              "RelativeToolTip": "acDLL\\consoleAndInput.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-18T04:09:17.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "consoleAndInput.h",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\consoleAndInput.h",
               "RelativeDocumentMoniker": "acDLL\\consoleAndInput.h",
@@ -236,12 +203,47 @@
               "RelativeToolTip": "acDLL\\consoleAndInput.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T04:58:28.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T04:58:28.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
+              "Title": "globals.cpp",
+              "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\globals.cpp",
+              "RelativeDocumentMoniker": "acDLL\\globals.cpp",
+              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\globals.cpp",
+              "RelativeToolTip": "acDLL\\globals.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-18T16:27:26.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "harvest.cpp",
+              "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\harvest.cpp",
+              "RelativeDocumentMoniker": "acDLL\\harvest.cpp",
+              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\harvest.cpp",
+              "RelativeToolTip": "acDLL\\harvest.cpp",
+              "ViewState": "AQIAABQAAAAAAAAAAAASwCoAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-18T16:23:24.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "memory.cpp",
+              "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\memory.cpp",
+              "RelativeDocumentMoniker": "acDLL\\memory.cpp",
+              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\memory.cpp",
+              "RelativeToolTip": "acDLL\\memory.cpp",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-19T21:26:37.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "SetupHooksAndNops.cpp",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\SetupHooksAndNops.cpp",
               "RelativeDocumentMoniker": "acDLL\\SetupHooksAndNops.cpp",
@@ -249,12 +251,11 @@
               "RelativeToolTip": "acDLL\\SetupHooksAndNops.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T04:23:27.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T04:23:27.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "harvest.h",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\harvest.h",
               "RelativeDocumentMoniker": "acDLL\\harvest.h",
@@ -262,25 +263,11 @@
               "RelativeToolTip": "acDLL\\harvest.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T16:23:18.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T16:23:18.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "consoleAndInput.cpp",
-              "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\consoleAndInput.cpp",
-              "RelativeDocumentMoniker": "acDLL\\consoleAndInput.cpp",
-              "ToolTip": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\consoleAndInput.cpp",
-              "RelativeToolTip": "acDLL\\consoleAndInput.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T04:09:17.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "SetupHooksAndNops.h",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\SetupHooksAndNops.h",
               "RelativeDocumentMoniker": "acDLL\\SetupHooksAndNops.h",
@@ -288,12 +275,11 @@
               "RelativeToolTip": "acDLL\\SetupHooksAndNops.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T04:23:12.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T04:23:12.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "MainHackLoop.h",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\MainHackLoop.h",
               "RelativeDocumentMoniker": "acDLL\\MainHackLoop.h",
@@ -301,12 +287,11 @@
               "RelativeToolTip": "acDLL\\MainHackLoop.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T18:04:27.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T18:04:27.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "pch.cpp",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\pch.cpp",
               "RelativeDocumentMoniker": "acDLL\\pch.cpp",
@@ -314,12 +299,11 @@
               "RelativeToolTip": "acDLL\\pch.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T18:07:02.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-18T18:07:02.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "oneShot.cpp",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\oneShot.cpp",
               "RelativeDocumentMoniker": "acDLL\\oneShot.cpp",
@@ -327,12 +311,11 @@
               "RelativeToolTip": "acDLL\\oneShot.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-17T22:06:55.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T22:06:55.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "oneShot.h",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\oneShot.h",
               "RelativeDocumentMoniker": "acDLL\\oneShot.h",
@@ -340,12 +323,11 @@
               "RelativeToolTip": "acDLL\\oneShot.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-17T22:06:47.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T22:06:47.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "framework.h",
               "DocumentMoniker": "C:\\Users\\Yanni\\source\\repos\\GHS\\acDLL\\acDLL\\framework.h",
               "RelativeDocumentMoniker": "acDLL\\framework.h",
@@ -353,8 +335,7 @@
               "RelativeToolTip": "acDLL\\framework.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-17T14:46:58.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T14:46:58.283Z"
             }
           ]
         }
