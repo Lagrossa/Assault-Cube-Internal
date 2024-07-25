@@ -13,6 +13,7 @@ struct Entity {
 	char* name = nullptr;
 
 	bool bChecked = false;
+	bool bTargetable = false;
 	float relativeX = NULL;
 	float relativeY = NULL;
 	float relativeZ = NULL;

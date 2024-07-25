@@ -1,6 +1,9 @@
 #pragma once
+#include "structs.h"
 
-int ClosestEnemy();
-void Aimbot(int lockOnTarget);
+Entity* ClosestEnemy();
+void Aimbot(Entity* lockOnTarget);
 
 extern bool bAimBotStatus;
+
+bool BeTargetable(Entity& target, Entity& myself);

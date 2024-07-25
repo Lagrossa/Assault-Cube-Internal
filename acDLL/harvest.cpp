@@ -44,6 +44,7 @@ void MoveDataIntoEnt(BYTE* playerBase, int* playerNumber) {
 	entity[*playerNumber].yHeadCoord = (float*)(playerBase + offsets.yHeadCoord);
 	entity[*playerNumber].zHeadCoord = (float*)(playerBase + offsets.zHeadCoord);
 	entity[*playerNumber].name = (char*)(playerBase + offsets.name);
+	entity[*playerNumber].pitch = (float*)(playerBase + offsets.pitch);
 	entity[*playerNumber].bChecked = true;
 
 	if (*playerNumber == 0) {

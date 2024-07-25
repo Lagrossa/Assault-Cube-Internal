@@ -17,7 +17,6 @@ void MoveEnemiesToPlayer(Entity entity) {
 }
 
 void MainHackLoop() {
-	static bool snakeUp = true;
 	int currentNumbersOfPlayers = *(int*)(numberOfPlayers);
 	
 	if (gNumberOfPlayers != currentNumbersOfPlayers) {
@@ -29,7 +28,7 @@ void MainHackLoop() {
 
 	UpdateEntInfo();
 
-	Aimbot(ClosestEnemy());
+	if (bAimBotStatus) { Aimbot(ClosestEnemy()); }
 
 	GetInput();
 }
